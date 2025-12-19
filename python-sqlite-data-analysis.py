@@ -10,6 +10,7 @@ import sqlite3
 # 2. Read CSV File into Pandas
 # ---------------------------------------
 df = pd.read_csv('survey_data.csv')
+#data_url = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/n01PQ9pSmiRX6520flujwQ/survey-data.csv'
 
 print("First 5 rows of the dataset:")
 print(df.head())
